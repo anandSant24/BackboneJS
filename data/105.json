@@ -1,0 +1,106 @@
+{  
+   "responseTime":"694",
+   "Subscription":[  
+      {  
+         "itemDetails":[  
+            {  
+               "catentryId":"-1",
+               "isSelected":"true",
+               "isSingleVariation":"true",
+               "attachments":[  
+                  {  
+                     "path":"https://scene7-secure.targetimg1.com/is/image/Target/14370329?wid=75&amp;hei=75",
+                     "usage":"THUMBNAIL_75"
+                  }
+               ],
+               "dynamicKitURL":"http://www.target.com/p/kleenex-hand-towels-6-packs/-/A-14370329",
+               "offers":[  
+                  {  
+                     "offerPrice":[  
+                        {  
+                           "currencyCode":"USD",
+                           "formattedPriceValue":"$18.49",
+                           "priceValue":"1849"
+                        }
+                     ]
+                  }
+               ],
+               "partNumber":"14370329",
+               "title":"Kleenex Hand Towels 6 packs"
+            }
+         ],
+         "message":"8 weeks",
+         "quantity":"2",
+         "maxItemQuantityAllowed":"99",
+         "subscriptionId":"7899582",
+         "subscriptionInterval":"8",
+         "subscriptionUOM":"WEE",
+         "validIntervals":"4 weeks|4-WEE,6 weeks|6-WEE,8 weeks|8-WEE,10 weeks|10-WEE,12 weeks|12-WEE,16 weeks|16-WEE,20 weeks|20-WEE,26 weeks|26-WEE",
+         "paymentInstruction":[  
+            {  
+               "addressId":"344ffc90-2a47-11e5-88e4-8be038273fb6",
+               "addressLine":[  
+                  "111 Marquette Ave Apt 2222"
+               ],
+               "city":"Minneapolis",
+               "country":"US",
+               "firstName":"anand",
+               "lastName":"k",
+               "state":"MN",
+               "zipCode":"55401-2033",
+               "protocolData":[  
+                  {  
+                     "name":"ExpiryMonth",
+                     "value":"08"
+                  },
+                  {  
+                     "name":"ExpiryYear",
+                     "value":"2018"
+                  },
+                  {  
+                     "name":"CardNumber",
+                     "value":"************0026"
+                  },
+                  {  
+                     "name":"PaymentMethod",
+                     "value":"Visa"
+                  }
+               ]
+            }
+         ],
+         "shipment":[  
+            {  
+               "addressId":"c2c81370-1441-11e5-ae4e-89112e4e9bb7",
+               "addressLine":[  
+                  "111 Marquette Ave Apt 2306"
+               ],
+               "city":"Minneapolis",
+               "country":"US",
+               "firstName":"anand",
+               "lastName":"k",
+               "state":"MN",
+               "zipCode":"55401-2033"
+            }
+         ],
+         "nextFFMDate":"11/26/2016",
+         "isSubscriptionsMod":true,
+         "paymentId":"219b0c70-15ed-11e5-88e2-2baa05554607",
+         "SubscriptionHistory":[  
+            {  
+               "orderDate":"09/14/2016",
+               "orderId":"2016158803175",
+               "quantity":"2",
+               "status":"canceled"
+            }
+         ],
+         "isLocked":false,
+         "lockReasons":[  
+
+         ],
+         "hasAddressProblem":false,
+         "addressProblems":[  
+
+         ]
+      }
+   ]
+}

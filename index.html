@@ -1,37 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Anand</title>
-	<!-- adding libraries -->
-	<script src="src/js/lib/jquery-1.11.3.js"></script>
-	<script src="src/js/lib/underscore.js"></script>
-	<script src="src/js/lib/backbone.js"></script>
-
-	<style type="text/css">
-	.rect, .shapes{
-		position: absolute
-	}
-
-	.circle0:hover, .circle1:hover, .circle2:hover, .circle3:hover{
-		transform: translateX(300px);
-	}
-
-	.circle0, .circle1, .circle2, .circle3{
-		position: absolute;
-		transition: all 1.5s ease;
-	}
-
-	</style>
+	<meta content="Anand Kumar Sant" name="Anand Kumar Sant">
+	<title>Anand Kumar Sant</title>
+	<!--
+	<script src="lib/jquery-1.11.3.js"></script>	
+	<script src="lib/underscore.js"></script>
+	<script src="lib/backbone.js"></script>
+-->
 </head>
 <body>
-<div>
-	<h1> welcome to my boilerplate </h1>
-</div>
-	<div id="rectangle" class="circleContainer">
-		
+<h2>https://addyosmani.com/backbone-fundamentals/#exercise-3-your-first-modular-backbone-requirejs-app</h2>
+	<div id="mainContainer">	
 	</div>
+	<ul id="listContainer">	
+	</ul>
 
-	<script src="src/js/demoApp/circles.js"></script>
+	<div id="mainList"></div>
+<!--	<script src="src/toDoApp.js"></script>
+	<script src="src/reviewApp.js"></script>
+	<script src="src/dailyToDo.js"></script>
+	<script src="src/moreToDo.js"></script> -->
+	<script src="js/lib/require.js" data-main="js/main"></script>
 
 </body>
 </html>

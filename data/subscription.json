@@ -1,0 +1,22 @@
+{  
+   "guestId":2991721190,
+   "hasSubscription":true,
+   "activeSubscriptionCount":7,
+   "activeSubscriptionIds":[  
+      7355405[100],
+      7355421[101],
+      7355429[102],
+      7535933[103],
+      7535973[104],
+      7899582[105],
+      7899605[106]
+   ],
+   "links":[  
+      {  
+         "rel":"self",
+         "href":"https://subscriptions-secure.target.com/subscriptions/v2/availability"
+      }
+   ]
+}
+
+
