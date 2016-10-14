@@ -3,14 +3,17 @@ define(['jquery',
 		'backbone'
 	],function($, _ ,Backbone){
 
-	var dayTaskMainView = Backbone.View.extend({
+	var DayTaskMainView = Backbone.View.extend({
 		
 		render: function(){
-
+			console.log('Apps render function is called');
+		},
+		initialize: function(){
+			console.log('inside dayTaskview initialize ');
 		}
 	});
 
 	return {
-		dayTaskView : dayTaskMainView
-	}
+		DayTaskMainView : DayTaskMainView
+	};
 });

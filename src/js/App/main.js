@@ -9,5 +9,6 @@ requirejs.config({
 });
 
 require(['src/js/App/app'],function(App){
-	var app;
+	var app = new App.DayTaskMainView();
+	app.render();
 });
