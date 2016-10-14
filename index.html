@@ -2,36 +2,16 @@
 <html>
 <head>
 	<title>Anand</title>
-	<!-- adding libraries -->
-	<script src="src/js/lib/jquery-1.11.3.js"></script>
-	<script src="src/js/lib/underscore.js"></script>
-	<script src="src/js/lib/backbone.js"></script>
-
-	<style type="text/css">
-	.rect, .shapes{
-		position: absolute
-	}
-
-	.circle0:hover, .circle1:hover, .circle2:hover, .circle3:hover{
-		transform: translateX(300px);
-	}
-
-	.circle0, .circle1, .circle2, .circle3{
-		position: absolute;
-		transition: all 1.5s ease;
-	}
-
-	</style>
 </head>
 <body>
 <div>
-	<h1> welcome to my boilerplate </h1>
+	<h1> welcome to my new boilerplate </h1>
 </div>
-	<div id="rectangle" class="circleContainer">
+	<div id="container">
 		
 	</div>
 
-	<script src="src/js/demoApp/circles.js"></script>
+	<script src="src/js/lib/require.js" data-main="src/js/App/main"></script>
 
 </body>
 </html>
