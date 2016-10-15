@@ -10,5 +10,5 @@ requirejs.config({
 
 require(['src/js/App/views/app'],function(App){
 	var app = new App.DayTaskMainView();
-	app.render();
+	app.initializeView();
 });

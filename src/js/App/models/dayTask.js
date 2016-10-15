@@ -1,13 +1,13 @@
-define([],function(){
+define(['backbone'],function(Backbone){
 	var DayTask = Backbone.Model.extend({
 		defaults:{
-			'descriptions':'Enter your task',
-			'status': false
+			'description':'Enter your task',
+			'status': 'false'
 		}
 	});
+	var dayTask = new DayTask();
 console.log('inside dayTask model ');
-	
 	return {
-		model: DayTask
+		model: dayTask
 	};
 });
