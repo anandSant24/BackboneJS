@@ -1,4 +1,4 @@
-//this app will simple moves the rectangle to the right upon click event
+z//this app will simple moves the rectangle to the right upon click event
 var Model = Backbone.Model.extend({});
 
 var circleView = Backbone.View.extend({

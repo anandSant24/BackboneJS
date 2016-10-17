@@ -2,15 +2,16 @@ define(['jquery',
 		'underscore',
 		'backbone',
 		'src/js/App/models/dayTask',
-		'text!src/js/App/templates/mainTpl.html'
-	],function($, _ ,Backbone, DayTaskModel, mainTpl){
+		'text!src/js/App/templates/dayTaskTpl.html'
+	],function($, _ ,Backbone, DayTaskModel, dayTaskTpl){
 
-	var DayTaskMainView = Backbone.View.extend({
-		el : '#container',
-		mainTemplate: _.template(mainTpl),
+	var DayTaskView = Backbone.View.extend({
+		//el : '#container',
+		mainTemplate: _.template(dayTaskTpl),
 		render: function(){
-			this.$el.html(this.mainTemplate(this.model));	
+			this.$el.html(this.mainTemplate(this.model.toJSON()));	
 			console.log('Apps render function is called');
+			return this;
 		},
 		initialize: function(){
 			console.log('inside dayTaskview initialize ');
@@ -20,12 +21,10 @@ define(['jquery',
 		},
 		initializeView: function(){
 			
-			var dayTaskView = new DayTaskMainView({model : DayTaskModel});
+			var dayTaskView = new DayTaskView({model : DayTaskModel});
 			dayTaskView.render();
 		}
 	});
 
-	return {
-		DayTaskMainView : DayTaskMainView
-	};
+	return DayTaskView;
 });

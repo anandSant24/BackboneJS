@@ -6,8 +6,7 @@ define(['backbone'],function(Backbone){
 		}
 	});
 	var dayTask = new DayTask();
-console.log('inside dayTask model ');
-	return {
-		model: dayTask
-	};
+	
+	console.log('inside dayTask model ');
+	return DayTask;
 });
