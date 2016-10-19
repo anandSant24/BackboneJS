@@ -8,7 +8,11 @@ requirejs.config({
 	}
 });
 
-require(['src/js/App/views/mainApp'],function(App){
-	var app = new App.DayTaskMainView();
+require(['src/js/App/views/mainApp'
+	],function(DayTaskMainView){
+	var app = new DayTaskMainView();
+
 	app.initializeView();
+
+	console.log('main.js app initializing');
 });
